@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Detalhamento e demonstrações visuais dos projetos desenvolvidos por Tiago Lima" />
+  <title>Galeria de Projetos | Tiago Lima</title>
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projetos | Tiago Lima" />
+  <meta property="og:description" content="Portfólio de Tiago Lima." />
+  <meta property="og:image" content="./assets/tiago_terno.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='80' font-size='80'%3E👨‍💻%3C/text%3E%3C/svg%3E">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Estilos movidos para style.css -->
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="navbar-logo">Tiago Lima</a>
+    <nav class="nav-links" aria-label="Navegação Principal">
+      <a href="index.html#inicio">Início</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#projetos">Projetos</a>
+      <a href="certificados.html">Certificados</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+    <a href="index.html#contato" class="btn-contact">
+      <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+      <span>Contato</span>
+    </a>
+  </header>
+
+  <main class="projects-page">
+    
+    <div class="page-nav-top">
+      <a href="index.html#projetos" class="btn-back">
+        <i class="fa-solid fa-arrow-left"></i> Voltar ao Portfólio
+      </a>
+      <span style="font-family: var(--font-mono, monospace); font-size: 0.85rem; color: var(--text-muted, #64748b);">
+        Exibição Multimídia de Soluções
+      </span>
+    </div>
+
+    <header class="page-header">
+      <h1><i class="fa-solid fa-laptop-code"></i> Demonstração dos Projetos</h1>
+      <p>
+        Apresentação aprofundada dos sistemas web desenvolvidos, gravações de tela em ambientes desktop e mobile, interfaces responsivas, dashboards analíticos e materiais de comunicação digital.
+      </p>
+    </header>
+
+    <nav class="project-nav-chips" aria-label="Navegação entre os projetos">
+      <a href="#kids-app" class="chip-link"># 01. Kids App</a>
+      <a href="#musicalidade" class="chip-link"># 02. Musicalidade Consciente</a>
+      <a href="#vem-dancar" class="chip-link"># 03. Studio Vem Dançar</a>
+      <a href="#felipe-nunes" class="chip-link"># 04. Dr. Felipe Nunes</a>
+      <a href="#simone-inspetora" class="chip-link"># 05. Simone — Inspetora Escolar</a>
+      <a href="#desenvolvimentos-pessoais" class="chip-link"># 06. Desenvolvimentos Pessoais</a>
+    </nav>
+
+    <section class="project-showcase-section" id="kids-app">
+      <div class="showcase-header">
+        <div class="showcase-title-area">
+          <h2>01. Kids App / Crachá Kids Porta da Paz</h2>
+          <p>
+            Aplicação web desenvolvida com HTML, CSS e JavaScript puro focada em resolver o fluxo de identificação e segurança de crianças em eventos sociais. Funciona em modo offline-first, com edição ágil de crachás, impressão padronizada e interface 100% responsiva.
+          </p>
+        </div>
+        <div class="tags-list">
+          <span class="tag-badge tag-green">HTML5</span>
+          <span class="tag-badge tag-green">CSS3</span>
+          <span class="tag-badge tag-green">JavaScript</span>
+          <span class="tag-badge tag-green">Educação</span>
+        </div>
+      </div>
+
+      <div class="media-grid grid-asymmetric-phone">
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-desktop"></i> Demonstração Web Desktop</span>
+            <span class="badge-tag">Full Screen</span>
+          </div>
+          <div class="media-content">
+            <div class="video-wrapper">
+              <video controls poster="./assets/01_login.jpeg" preload="metadata">
+                <source src="./assets/videos/video_kids_app_desktop.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução deste vídeo.
+              </video>
+            </div>
+          </div>
+          <div class="media-caption">
+            Navegação no ambiente desktop mostrando geração em tempo real, adição de dados dos alunos e visualização da grade de impressão de crachás.
+          </div>
+        </div>
+
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-mobile-screen-button"></i> Responsivo no Celular</span>
+            <span class="badge-tag">Mobile Test</span>
+          </div>
+          <div class="media-content" style="padding: 16px 0;">
+            <div class="phone-mockup-wrapper">
+              <video controls poster="./assets/capa_nova_aula.jpeg" preload="metadata">
+                <source src="./assets/videos/video_responsivo_kids_app_celular.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+              </video>
+            </div>
+          </div>
+          <div class="media-caption">
+            Teste de usabilidade em dispositivo móvel com adaptação de botões ao toque e layout fluido.
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase-actions">
+        <a href="https://github.com/tgojlima" target="_blank" rel="noopener noreferrer" class="btn-action-outline">
+          <i class="fa-brands fa-github"></i> Repositório no GitHub
+        </a>
+      </div>
+    </section>
+
+    <section class="project-showcase-section" id="musicalidade">
+      <div class="showcase-header">
+        <div class="showcase-title-area">
+          <h2>02. Musicalidade Consciente</h2>
+          <p>
+            Gestão visual e digital integral do projeto musical: concepção de identidade visual e logotipo, confecção e diagramação de diplomas oficiais, artes de divulgação para canais digitais e gravação da navegação interativa do E-book.
+          </p>
+        </div>
+        <div class="tags-list">
+          <span class="tag-badge tag-blue">Marketing Digital</span>
+          <span class="tag-badge tag-blue">Design</span>
+          <span class="tag-badge tag-blue">E-book</span>
+          <span class="tag-badge tag-blue">Documentação</span>
+        </div>
+      </div>
+
+      <div class="media-grid grid-2-cols">
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-image"></i> Identidade Visual / Logotipo</span>
+            <span class="badge-tag">Branding</span>
+          </div>
+          <div class="image-wrapper contain-mode">
+            <img src="./assets/logo-musicalidade-consciente.jpg" alt="Logo Musicalidade Consciente" / loading="lazy">
+          </div>
+          <div class="media-caption">
+            Logotipo conceitual vetorizado com harmonia visual entre elementos musicais e clareza de marca.
+          </div>
+        </div>
+
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-certificate"></i> Diploma e Certificados</span>
+            <span class="badge-tag">Documentação</span>
+          </div>
+          <div class="image-wrapper">
+             <img src="./assets/certificado-em-branco.jpeg" alt="Certificado 3º Módulo" / loading="lazy">
+          </div>
+          <div class="media-caption">
+            Diagramação profissional de certificado e diploma para alunos e formandos dos módulos musicais.
+          </div>
+        </div>
+
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-bullhorn"></i> Artes de Divulgação</span>
+            <span class="badge-tag">Social Media</span>
+          </div>
+          <div class="image-wrapper">
+            <img src="./assets/artes_festival_entre_cordas_pq.jpeg" onerror="this.onerror=null; this.src='./assets/logo_musicalidade.jpg';" alt="Artes de Divulgação" / loading="lazy">
+          </div>
+          <div class="media-caption">
+            Conjunto de peças promocionais e criativos para campanhas em redes sociais e WhatsApp.
+          </div>
+        </div>
+
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-film"></i> Demonstração do E-book Digital</span>
+            <span class="badge-tag">Vídeo Review</span>
+          </div>
+          <div class="media-content">
+            <div class="video-wrapper">
+              <video controls poster="./assets/capa.jpeg" preload="metadata">
+                <source src="./assets/videos/video_ebook.mp4" type="video/mp4">
+                Seu navegador não suporta reprodução de vídeo.
+              </video>
+            </div>
+          </div>
+          <div class="media-caption">
+            Apresentação interativa das páginas do e-book pedagógico com conteúdo estruturado e ilustrado.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-showcase-section" id="vem-dancar">
+      <div class="showcase-header">
+        <div class="showcase-title-area">
+          <h2>03. Studio Vem Dançar</h2>
+          <p>
+            Plataforma web institucional completa desenvolvida para escola de dança, com vitrine de modalidades, grade horária, integração com e-commerce de produtos e foco direto em conversão de matrículas via campanhas de tráfego pago.
+          </p>
+        </div>
+        <div class="tags-list">
+          <span class="tag-badge tag-yellow">Site Institucional</span>
+          <span class="tag-badge tag-yellow">Loja Virtual</span>
+          <span class="tag-badge tag-yellow">Marketing Digital</span>
+        </div>
+      </div>
+
+      <!-- Vídeo no topo ocupando a largura total do container -->
+      <div class="media-block" style="margin-bottom: 24px;">
+        <div class="media-label">
+          <span><i class="fa-solid fa-video"></i> Tour Completo pelo Site & Loja Virtual</span>
+          <span class="badge-tag">Screencast</span>
+        </div>
+        <div class="media-content">
+          <div class="video-wrapper">
+            <video controls poster="./assets/capa_site_studio.jpeg" preload="metadata">
+              <source src="./assets/videos/site_loja.mp4" type="video/mp4">
+              Seu navegador não suporta a tag de vídeo.
+            </video>
+          </div>
+        </div>
+        <div class="media-caption">
+          Gravação da experiência do usuário no site: apresentação visual, galeria de turmas, navegação fluida e integração para compra e agendamento de aulas.
+        </div>
+      </div>
+
+      <!-- Grid com 2 colunas para colocar Google Meu Negócio e Diagramação lado a lado -->
+      <div class="media-grid grid-2-cols">
+        
+        <!-- Card 1: Google Meu Negócio -->
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-bullhorn"></i> Google Meu Negócio</span>
+            <span class="badge-tag">Divulgação</span>
+          </div>
+          <div class="image-wrapper contain-mode">
+            <img src="./assets/google_meu_negocio.jpeg" onerror="this.onerror=null; this.src='./assets/logo_musicalidade.jpg';" alt="Google Meu Negócio" / loading="lazy">
+          </div>
+          <div class="media-caption">
+            Implementação da estratégia de divulgação online para aumentar a visibilidade do negócio.
+          </div>
+        </div>
+
+        <!-- Card 2: Diagramação da Estratégia de Conteúdo -->
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-chart-line"></i> Diagramação da Estratégia de Conteúdo</span>
+            <span class="badge-tag">Planejamento</span>
+          </div>
+          <div class="image-wrapper contain-mode">
+            <img src="./assets/planejamento_studiovd.jpeg" onerror="this.onerror=null; this.src='./assets/logo-dr.-felipe-nunes.jpeg';" alt="Diagramação Estratégica" / loading="lazy">
+          </div>
+          <div class="media-caption">
+            Mapa visual de cronograma anual de conteúdo, pilares temáticos de dança e arquitetura de atração e fidelização.
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <section class="project-showcase-section" id="felipe-nunes">
+      <div class="showcase-header">
+        <div class="showcase-title-area">
+          <h2>04. Dr. Felipe Nunes — Nutricionista</h2>
+          <p>
+            Projeto estratégico de autoridade profissional na área da saúde e nutrição: criação do logotipo institucional e estruturação visual/diagramação de funis de conteúdo e captação de clientes.
+          </p>
+        </div>
+        <div class="tags-list">
+          <span class="tag-badge tag-yellow">Marketing Digital</span>
+          <span class="tag-badge tag-yellow">Branding</span>
+          <span class="tag-badge tag-yellow">Conteúdo</span>
+        </div>
+      </div>
+
+      <div class="media-grid grid-2-cols">
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-fingerprint"></i> Logotipo Oficial & Identidade</span>
+            <span class="badge-tag">Logo Design</span>
+          </div>
+          <div class="image-wrapper contain-mode" style="background-color: #000000;">
+            <img src="./assets/logo-dr.-felipe-nunes.jpeg" alt="Logo Dr Felipe Nunes" / loading="lazy">
+          </div>
+          <div class="media-caption">
+            Marca desenhada transmitindo sofisticação, credibilidade científica e posicionamento premium.
+          </div>
+        </div>
+
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-chart-line"></i> Diagramação da Estratégia de Conteúdo</span>
+            <span class="badge-tag">Planejamento</span>
+          </div>
+          <div class="image-wrapper">
+            <img src="./assets/planejamento-dr.-felipe-nunes.jpeg" onerror="this.onerror=null; this.src='./assets/logo-dr.-felipe-nunes.jpeg';" alt="Diagramação Estratégica" / loading="lazy">
+          </div>
+          <div class="media-caption">
+            Mapa visual do cronograma editorial, pilares temáticos de nutrição e arquitetura de atração e fidelização.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-showcase-section" id="simone-inspetora">
+      <div class="showcase-header">
+        <div class="showcase-title-area">
+          <h2>05. Simone — Inspetora Escolar</h2>
+          <p>
+            Soluções completas de otimização operacional escolar. Painel analítico de controle de alunos, relatórios e métricas, além de edição de vídeos dinâmicos aplicados em treinamentos e comunicados institucionais.
+          </p>
+        </div>
+        <div class="tags-list">
+          <span class="tag-badge tag-blue">Dashboard</span>
+          <span class="tag-badge tag-blue">Planilhas Inteligentes</span>
+          <span class="tag-badge tag-blue">Edição de Vídeo</span>
+          <span class="tag-badge tag-blue">Monitoramento</span>
+        </div>
+      </div>
+
+      <div class="media-grid grid-2-cols">
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-chart-pie"></i> Vídeo: Dashboard Interativo</span>
+            <span class="badge-tag">Análise de Dados</span>
+          </div>
+          <div class="media-content">
+            <div class="video-wrapper">
+              <video controls poster="./assets/capa_dashboard.jpeg" preload="metadata">
+                <source src="./assets/videos/video_dashboard.mp4" type="video/mp4">
+                Seu navegador não suporta reprodução de vídeo.
+              </video>
+            </div>
+          </div>
+          <div class="media-caption">
+            Demonstração prática dos gráficos em tempo real, filtros de pesquisa de ocorrências e geração automatizada de relatórios.
+          </div>
+        </div>
+
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-clapperboard"></i> Vídeo: Treinamentos & Edição</span>
+            <span class="badge-tag">Produção Audiovisual</span>
+          </div>
+          <div class="media-content">
+            <div class="video-wrapper">
+              <video controls poster="./assets/capa_projeto_leitura.jpeg" preload="metadata">
+                <source src="./assets/videos/video_projeto_leitura.mp4" type="video/mp4">
+                Seu navegador não suporta reprodução de vídeo.
+              </video>
+            </div>
+          </div>
+          <div class="media-caption">
+            Cortes rítmicos, legendagem dinâmica, elementos visuais de apoio e sonorização para engajamento dos colaboradores.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-showcase-section" id="desenvolvimentos-pessoais">
+      <div class="showcase-header">
+        <div class="showcase-title-area">
+          <h2>06. Desenvolvimentos Pessoais</h2>
+          <p>
+            Laboratório de criação e estudo de novas tecnologias: ambiente de desenvolvimento com painel administrativo interativo para testes de código, além do portal devocional planejado para leitura e estudos comunitários diários.
+          </p>
+        </div>
+        <div class="tags-list">
+          <span class="tag-badge tag-purple">Web App</span>
+          <span class="tag-badge tag-purple">Painel Dev</span>
+          <span class="tag-badge tag-purple">Portal Devocional</span>
+        </div>
+      </div>
+
+      <div class="media-grid grid-2-cols">
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-sliders"></i> Vídeo: Painel do Desenvolvedor</span>
+            <span class="badge-tag">Interface Dev</span>
+          </div>
+          <div class="media-content">
+            <div class="video-wrapper">
+              <video controls poster="./assets/capa_myorganizeweb.jpeg" preload="metadata">
+                <source src="./assets/videos/video_my_organizer_website.mp4" type="video/mp4">
+                Seu navegador não suporta reprodução de vídeo.
+              </video>
+            </div>
+          </div>
+          <div class="media-caption">
+            Painel interno com controles para gerenciar seções, paleta de cores e inspecionar componentes de software em tempo real.
+          </div>
+        </div>
+
+        <div class="media-block">
+          <div class="media-label">
+            <span><i class="fa-solid fa-book-bible"></i> Vídeo: Aplicação Devocional</span>
+            <span class="badge-tag">Plataforma Comunitária</span>
+          </div>
+          <div class="media-content">
+            <div class="video-wrapper">
+              <video controls poster="./assets/capa_teoguia.jpeg" preload="metadata">
+                <source src="./assets/videos/video_teoguia.mp4" type="video/mp4">
+                Seu navegador não suporta reprodução de vídeo.
+              </video>
+            </div>
+          </div>
+          <div class="media-caption">
+            Navegação pelo ambiente de leitura bíblica, reflexões diárias e interface projetada para tranquilidade e clareza de leitura.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <p>© 2026 Tiago Lima – Construindo pontes entre código e comunidade · Feito com 💖 e ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511988733425" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Fale comigo no WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+</body>
+</html>

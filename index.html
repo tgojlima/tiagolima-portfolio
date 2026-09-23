@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Tiago Lima - Desenvolvedor Full-Stack, Gestor de Projetos Digitais e Designer" />
+  
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portfólio | Tiago Lima" />
+  <meta property="og:description" content="Desenvolvedor Full-Stack, Gestor de Projetos Digitais e Designer." />
+  <meta property="og:image" content="./assets/tiago_terno.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>Portfólio | Tiago Lima</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='80' font-size='80'%3E👨‍💻%3C/text%3E%3C/svg%3E">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Folha de Estilos Externa -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Barra de Navegação -->
+  <header class="navbar">
+    <a href="#inicio" class="navbar-logo">Tiago Lima</a>
+    <nav class="nav-links" aria-label="Navegação Principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="certificados.html">Certificados</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="btn-contact">
+      <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+      <span>Contato</span>
+    </a>
+  </header>
+
+  <main>
+  <!-- Hero Section -->
+  <section class="hero-wrapper" id="inicio">
+    <div class="hero-container">
+      <div class="hero-content">
+        
+        <div class="hero-left">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Disponível para novos projetos</span>
+          </div>
+
+          <h1 class="hero-title">
+            Transformando <span class="text-blue">Código</span> em<br />
+            Impacto Social
+          </h1>
+
+          <p class="hero-tags">
+            <span>Desenvolvedor Full-Stack</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <span>Gestor de Projetos Digitais</span>
+            <span class="dot" aria-hidden="true">•</span>
+            <span>Criador de Soluções com Propósito</span>
+          </p>
+
+          <p class="hero-description">
+            Com mais de 15 anos dedicados à educação comunitária e experiência em gestão, desenvolvimento e marketing digital, construo pontes entre tecnologia e transformação social.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn btn-primary">
+              <span aria-hidden="true">&lt;&gt;</span>
+              <span>Ver Projetos</span>
+            </a>
+            <a href="./assets/curriculo-tiago-2026.pdf" target="_blank" class="btn btn-secondary" aria-label="Visualizar ou Baixar Currículo em PDF">
+              <i class="fa-solid fa-download" aria-hidden="true"></i>
+              <span>Ver / Baixar CV</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="avatar-frame">
+            <img src="./assets/tiago_terno.jpg" alt="Foto profissional de Tiago Lima" class="avatar-img" / loading="lazy">
+            <span class="experience-badge">+15 anos</span>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://github.com/tgojlima" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Tiago Lima">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://linkedin.com/in/tiagolima-frontend-design" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Tiago Lima">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:lima.j.tiago@gmail.com" aria-label="Enviar e-mail para Tiago Lima">
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/5511988733425" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Tiago Lima">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-footer-contacts">
+        <div class="contact-item">
+          <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          <span>lima.j.tiago@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          <span>(11) 98873-3425</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section class="about-section" id="sobre">
+    <div class="about-container">
+      <h2 class="section-title">
+        <span class="code-symbol" aria-hidden="true">&lt;&gt;</span> Sobre Mim
+      </h2>
+
+      <div class="about-grid">
+        <div class="photo-card-container">
+          <div class="photo-card">
+            <img src="./assets/tiago_sueter.jpg" alt="Tiago Lima posando com suéter" class="photo-img" / loading="lazy">
+          </div>
+          <div class="avatar-badge">
+            <img src="./assets/tgoavatar.jpeg" alt="Ícone de avatar" / loading="lazy">
+          </div>
+        </div>
+
+        <article class="info-card">
+          <div class="card-icon" aria-hidden="true">💼</div>
+          <h3 class="card-title">Profissional</h3>
+          <p class="card-text">Formado em Análise e Desenvolvimento de Sistemas pela Estácio de Sá.</p>
+          <p class="card-text">Experiência em gestão de projetos digitais, controle de qualidade e logística.</p>
+          <p class="card-text">Freelancer focado em organização, padronização e entrega de resultados.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon" aria-hidden="true">❤️</div>
+          <h3 class="card-title">Social</h3>
+          <p class="card-text">Professor da Rede Kids há mais de 15 anos na Igreja Porta da Paz.</p>
+          <p class="card-text">Roteirista de teatro e organizador de atividades em orfanatos e casas de repouso.</p>
+          <p class="card-text">Desenvolvedor do aplicativo Kids Porta da Paz.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon" aria-hidden="true">🎮</div>
+          <h3 class="card-title">Pessoal</h3>
+          <p class="card-text">Apaixonado por tecnologia, esportes e games.</p>
+          <p class="card-text">Líder de um grupo de acolhimento em casa, unindo fé e comunidade.</p>
+          <p class="card-text">Acredita que a tecnologia conecta pessoas e gera transformação.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Tags de Cursos Realizados -->
+  <section class="tags-section" aria-label="Cursos e Certificações">
+    <div class="tags-container">
+      <a href="certificados.html" class="tag">Análise e Desenvolvimento de Sistemas – Estácio de Sá</a>
+      <a href="certificados.html" class="tag">Marketing Digital – Curso em Vídeo</a>
+      <a href="certificados.html" class="tag">IA Aperfeiçoamento – DIO.me</a>
+      <a href="certificados.html" class="tag">Santander React Front-end – Dio.me</a>
+      <a href="certificados.html" class="tag">IA React Front-end – Dio.me</a>
+      <a href="certificados.html" class="tag">Fundamentos da IA Moderna – Dio.me</a>
+      <a href="certificados.html" class="tag">HTML – Dio.me</a>
+      <a href="certificados.html" class="tag">Criando Ebook – Dio.me</a>
+      <a href="certificados.html" class="tag">Desenvolvimento de Software Colaborativo – Dio.me</a>
+      <a href="certificados.html" class="tag">Portfólio – Dio.me</a>
+      <a href="certificados.html" class="tag">Versionamento de Código – Dio.me</a>
+      <a href="certificados.html" class="tag">Git e GitHub – Curso em Vídeo</a>
+      <a href="certificados.html" class="tag">Como anunciar na internet – Curso em Vídeo</a>
+      <a href="certificados.html" class="tag">Marketing Digital – Curso em Vídeo</a>
+      <a href="certificados.html" class="tag">Python Módulo 1 – Curso em Vídeo</a>
+    </div>
+  </section>
+
+  <!-- Seção Projetos em Destaque -->
+  <section class="projects-section" id="projetos">
+    <h2 class="section-title">
+      <i class="fa-solid fa-star" aria-hidden="true"></i> Projetos em Destaque
+    </h2>
+
+    <div class="projects-grid">
+      <!-- Card 1 -->
+      <article class="project-card">
+        <div class="card-cover">
+          <img src="./assets/kids_portadapaz.jpeg" alt="Screenshot do aplicativo Kids Porta da Paz" / loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="author-and-tags">
+            <div class="author-avatar">
+              <img src="./assets/tgoavatar.jpeg" alt="Avatar autor" / loading="lazy">
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/tgojlima/cracha-kids-portadapaz" target="_blank" rel="noopener noreferrer" class="project-link link-green">
+              <i class="fa-solid fa-link" aria-hidden="true"></i> Ver Projeto
+              </a>
+</div>
+            <div class="tags-list">
+              <span class="tag-badge tag-green">HTML</span>
+              <span class="tag-badge tag-green">CSS</span>
+              <span class="tag-badge tag-green">JavaScript</span>
+              <span class="tag-badge tag-green">Educação</span>
+            </div>
+          </div>
+          <h3 class="card-title">Kids App / Crachá Kids Porta da Paz</h3>
+          <p class="card-description">
+            Aplicação web completa para edição e geração de crachás para eventos da igreja. Solução prática, offline-first e de fácil uso.
+          </p>
+          <p class="card-italic-note">
+            Criado para facilitar a identificação e organização das crianças nos eventos sociais.
+          </p>
+          <div class="card-footer">
+            <a href="projetos.html#kids-app" class="project-link link-green">
+              <i class="fa-solid fa-link" aria-hidden="true"></i> Ver Projeto
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="project-card">
+        <div class="card-cover cover-centered">
+          <img src="./assets/logo_musicalidade.jpg" alt="Logotipo Musicalidade Consciente" / loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="author-and-tags">
+            <div class="author-avatar">
+              <img src="./assets/tgoavatar.jpeg" alt="Avatar autor" / loading="lazy">
+            </div>
+            <div class="tags-list">
+              <span class="tag-badge tag-blue">Marketing Digital</span>
+              <span class="tag-badge tag-blue">Design</span>
+              <span class="tag-badge tag-blue">E-book</span>
+              <span class="tag-badge tag-blue">Documentação</span>
+            </div>
+          </div>
+          <h3 class="card-title">Musicalidade Consciente</h3>
+          <p class="card-description">
+            Gestão digital completa da empresa: criação de diplomas, artes de divulgação, e-books, documentação oficial e estratégia de marketing digital.
+          </p>
+          <p class="card-italic-note">
+            Projeto que une arte, educação e estratégia de conteúdo.
+          </p>
+          <div class="card-footer">
+            <a href="projetos.html#musicalidade" class="project-link link-blue">
+              <i class="fa-solid fa-link" aria-hidden="true"></i> Ver Projeto
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="project-card">
+        <div class="card-cover">
+          <img src="./assets/studio_vemdancar.jpeg" alt="Visual do site Studio Vem Dançar" / loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="author-and-tags">
+            <div class="author-avatar">
+              <img src="./assets/tgoavatar.jpeg" alt="Avatar autor" / loading="lazy">
+            </div>
+            <div class="tags-list">
+              <span class="tag-badge tag-yellow">Site</span>
+              <span class="tag-badge tag-yellow">Loja Virtual</span>
+              <span class="tag-badge tag-yellow">Marketing Digital</span>
+            </div>
+          </div>
+          <h3 class="card-title">Studio Vem Dançar</h3>
+          <p class="card-description">
+            Desenvolvimento completo do site institucional, integração com loja virtual e campanhas de marketing digital para academia de dança.
+          </p>
+          <p class="card-italic-note">
+            Foco em conversão e presença digital.
+          </p>
+          <div class="card-footer">
+            <a href="projetos.html#vem-dancar" class="project-link link-yellow">
+              <i class="fa-solid fa-link" aria-hidden="true"></i> Ver Projeto
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="project-card">
+        <div class="card-cover cover-centered">
+          <img src="./assets/logo-dr.-felipe-nunes.jpeg" alt="Logotipo Dr. Felipe Nunes" / loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="author-and-tags">
+            <div class="author-avatar">
+              <img src="./assets/tgoavatar.jpeg" alt="Avatar autor" / loading="lazy">
+            </div>
+            <div class="tags-list">
+              <span class="tag-badge tag-yellow">Marketing Digital</span>
+              <span class="tag-badge tag-yellow">Branding</span>
+              <span class="tag-badge tag-yellow">Conteúdo</span>
+            </div>
+          </div>
+          <h3 class="card-title">Dr. Felipe Nunes — Nutricionista</h3>
+          <p class="card-description">
+            Estratégia completa de marketing digital com foco em geração de leads, branding e produção de conteúdo para redes sociais.
+          </p>
+          <p class="card-italic-note">
+            Posicionamento de autoridade no nicho de nutrição.
+          </p>
+          <div class="card-footer">
+            <a href="projetos.html#felipe-nunes" class="project-link link-yellow">
+              <i class="fa-solid fa-link" aria-hidden="true"></i> Ver Projeto
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="project-card">
+        <div class="card-cover">
+          <img src="./assets/simone-dashboard.png" alt="Interface do Dashboard Simone Inspetora" / loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="author-and-tags">
+            <div class="author-avatar">
+              <img src="./assets/tgoavatar.jpeg" alt="Avatar autor" / loading="lazy">
+            </div>
+            <div class="tags-list">
+              <span class="tag-badge tag-blue">Dashboard</span>
+              <span class="tag-badge tag-blue">Planilhas</span>
+              <span class="tag-badge tag-blue">Edição de Vídeo</span>
+              <span class="tag-badge tag-blue">Monitoramento</span>
+            </div>
+          </div>
+          <h3 class="card-title">Simone — Inspetora Escolar</h3>
+          <p class="card-description">
+            Criação de ferramentas de monitoramento com planilhas inteligentes, dashboards interativos e edição de vídeos para treinamentos.
+          </p>
+          <p class="card-italic-note">
+            Solução que organiza e otimiza o trabalho de inspeção escolar.
+          </p>
+          <div class="card-footer">
+            <a href="projetos.html#simone-inspetora" class="project-link link-blue">
+              <i class="fa-solid fa-link" aria-hidden="true"></i> Ver Projeto
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="project-card">
+        <div class="card-cover">
+          <img src="./assets/site_editor.jpeg" alt="Ambiente de edição de site devocional" / loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="author-and-tags">
+            <div class="author-avatar">
+              <img src="./assets/tgoavatar.jpeg" alt="Avatar autor" / loading="lazy">
+            </div>
+            <div class="tags-list">
+              <span class="tag-badge tag-purple">Site</span>
+              <span class="tag-badge tag-purple">Organização</span>
+              <span class="tag-badge tag-purple">Devocional</span>
+            </div>
+          </div>
+          <h3 class="card-title">Desenvolvimentos Pessoais</h3>
+          <p class="card-description">
+            Hub para organização e edição de projetos pessoais, incluindo um site devocional para estudos e reflexões diárias.
+          </p>
+          <p class="card-italic-note">
+            Espaço pessoal de experimentação e criatividade.
+          </p>
+          <div class="card-footer">
+            <a href="projetos.html#desenvolvimentos-pessoais" class="project-link link-purple">
+              <i class="fa-solid fa-link" aria-hidden="true"></i> Ver Projeto
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Seção Habilidades -->
+  <section class="skills-section" id="habilidades">
+    <h2 class="skills-title">
+      <i class="fa-solid fa-bolt icon-bolt" aria-hidden="true"></i> Habilidades
+    </h2>
+
+    <div class="skills-grid">
+      <div class="skills-column">
+        <div class="skill-group">
+          <h3 class="category-label label-blue">Linguagens</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="category-label label-blue">Ferramentas</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Adobe Suite</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="category-label label-blue">Marketing</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Marketing Digital</span>
+            <span class="skill-tag">SEO</span>
+            <span class="skill-tag">Google Analytics</span>
+            <span class="skill-tag">Criação de Conteúdo</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="category-label label-blue">Outros</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Edição de Vídeo</span>
+            <span class="skill-tag">Copyright</span>
+            <span class="skill-tag">AutoCAD</span>
+            <span class="skill-tag">IA Generativa</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-column">
+        <div class="skill-group">
+          <h3 class="category-label label-blue">Frameworks / Libs</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="category-label label-blue">Gestão</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Controle de Qualidade</span>
+            <span class="skill-tag">Logística</span>
+            <span class="skill-tag">Almoxarifado</span>
+            <span class="skill-tag">Padronização</span>
+            <span class="skill-tag">Gestão de Projetos</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="category-label label-blue">Design</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Identidade Visual</span>
+            <span class="skill-tag">Design Gráfico</span>
+            <span class="skill-tag">Diagramação</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="skills-divider" />
+
+    <div class="soft-skills-group">
+      <h3 class="category-label label-green">Soft Skills</h3>
+      <div class="skill-tags">
+        <span class="skill-tag tag-soft">Organização</span>
+        <span class="skill-tag tag-soft">Disciplina</span>
+        <span class="skill-tag tag-soft">Proatividade</span>
+        <span class="skill-tag tag-soft">Trabalho em Equipe</span>
+        <span class="skill-tag tag-soft">Adaptabilidade</span>
+        <span class="skill-tag tag-soft">Comunicação</span>
+        <span class="skill-tag tag-soft">Liderança</span>
+        <span class="skill-tag tag-soft">Planejamento</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section class="contact-section" id="contato">
+    <div class="contact-header">
+      <h2 class="contact-title">Vamos Conversar? 💬</h2>
+      <p class="contact-subtitle">
+        Estou aberto a novas oportunidades, parcerias e desafios. Entre em contato!
+      </p>
+    </div>
+
+    <div class="contact-box">
+      <div class="direct-contacts-grid">
+        <a href="mailto:lima.j.tiago@gmail.com" class="direct-card">
+          <i class="fa-regular fa-envelope icon-email" aria-hidden="true"></i>
+          <span class="direct-label label-email">E-mail</span>
+          <span class="direct-value">lima.j.tiago@gmail.com</span>
+        </a>
+
+        <a href="https://wa.me/5511988733425" target="_blank" rel="noopener noreferrer" class="direct-card">
+          <i class="fa-brands fa-whatsapp icon-whatsapp" aria-hidden="true"></i>
+          <span class="direct-label label-whatsapp">WhatsApp</span>
+          <span class="direct-value">(11) 98873-3425</span>
+        </a>
+
+        <div class="direct-card">
+          <i class="fa-solid fa-location-dot icon-location" aria-hidden="true"></i>
+          <span class="direct-label label-location">Localização</span>
+          <span class="direct-value">São Paulo – SP</span>
+        </div>
+      </div>
+
+      <div class="contact-subgroup">
+        <h3 class="subgroup-title">Redes Sociais</h3>
+        <div class="social-links-grid">
+          <a href="https://github.com/tgojlima" target="_blank" rel="noopener noreferrer" class="social-card">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <div>
+              <span class="social-name">GitHub</span>
+              <span class="social-handle">tgojlima</span>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com/in/tiagolima-frontend-design" target="_blank" rel="noopener noreferrer" class="social-card">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <div>
+              <span class="social-name">LinkedIn</span>
+              <span class="social-handle">tiagolima-frontend-design</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-subgroup">
+        <h3 class="subgroup-title">Disponibilidade</h3>
+        <ul class="availability-list">
+          <li><i class="fa-solid fa-check check-icon" aria-hidden="true"></i> Disponível para freelas</li>
+          <li><i class="fa-solid fa-check check-icon" aria-hidden="true"></i> Disponível para projetos voluntários</li>
+          <li><i class="fa-solid fa-check check-icon" aria-hidden="true"></i> Aberto a oportunidades CLT/PJ</li>
+        </ul>
+      </div>
+
+      <div class="contact-actions">
+        <a href="mailto:lima.j.tiago@gmail.com" class="btn btn-blue">
+          <i class="fa-regular fa-envelope" aria-hidden="true"></i> Enviar E-mail
+        </a>
+        <a href="https://wa.me/5511988733425" target="_blank" rel="noopener noreferrer" class="btn btn-green">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp
+        </a>
+        <a href="./assets/curriculo-tiago-2026.pdf" target="_blank" class="btn btn-dark" aria-label="Visualizar ou Baixar Currículo em PDF">
+          <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Ver / Baixar CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-col col-brand">
+          <h3 class="footer-author">Tiago Lima</h3>
+          <p class="footer-quote">"Código que conecta, tecnologia que transforma."</p>
+        </div>
+
+        <div class="footer-col col-links">
+          <h4 class="footer-title">Links Rápidos</h4>
+          <ul class="footer-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="certificados.html">Certificados</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col col-contact">
+          <h4 class="footer-title">Contato Direto</h4>
+          <div class="footer-contact-item">
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:lima.j.tiago@gmail.com">lima.j.tiago@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <a href="tel:5511988733425">(11) 98873-3425</a>
+          </div>
+          <div class="footer-social-icons">
+            <a href="https://github.com/tgojlima" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://linkedin.com/in/tiagolima-frontend-design" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="mailto:lima.j.tiago@gmail.com" aria-label="E-mail"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom">
+        <p>© 2026 Tiago Lima – Construindo pontes entre código e comunidade · Feito com 💖 e ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão WhatsApp Flutuante -->
+  <a href="https://wa.me/5511988733425" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Fale comigo no WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+<!-- Vinculando o JavaScript -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
