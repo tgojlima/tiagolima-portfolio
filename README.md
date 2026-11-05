@@ -52,6 +52,12 @@ O objetivo deste projeto não é apenas ser uma vitrine dos meus projetos técni
  ┗ 📜 README.md         # Esta documentação
 ```
 
+## 🚀 Projetos em Destaque no Portfólio
+- 🎸 **[Musicalidade Consciente — Ebook Violão Descomplicado](https://ebookviolaodescomplicado.netlify.app)** ([Repositório](https://github.com/tgojlima/projeto-musicalidade-consciente)): Landing Page de vendas, página de pós-venda automatizada na Eduzz, editoração de Ebook (108 páginas) e vídeos promocionais com IA generativa (Google Flow).
+- 🎮 **[Jogo de Rotina da Clarice](https://github.com/tgojlima/Clari_game_rotina)**: Jogo RPG 2D em JavaScript puro (Canvas + WebAudio API) para gamificação de rotina infantil.
+- 🪪 **[Kids App / Crachá Kids Porta da Paz](https://github.com/tgojlima/cracha-kids-portadapaz)**: Aplicação web offline-first para geração e impressão de crachás de segurança infantil.
+- 📖 **[Igreja em Casa — App Devocional](https://igrejaemcasa-devocional.netlify.app)** ([Repositório](https://github.com/tgojlima/igreja-em-casa-app)): SPA responsiva com controle de leitura, diário pessoal e relatórios para impressão.
+
 ## ⚙️ Como rodar localmente
 Este é um site 100% estático. Não requer build ou instalação de pacotes complexos.
 1. Clone este repositório:
